@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .body{
+    background-color: green;
+} */
+.heading{
+    display: flex;
+    display: flex;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 45px;
+    
+    /* align-items: center;
+    justify-content: center;     */
+}
+.main{
+    flex-direction: column;
+    gap: 44px;
+}
+.container {
+    background-color: #30a830cc;
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    position: relative;
+    /* margin: 33px 0px; */
+    background-color: rgb(221, 255, 202);
+    height: 160vh;
+    width: 70vw;
+    border-radius: 55px;
+    display: flex;
+}
+#list{
+    list-style: none;
+}
+.form-part{
+    display: flex;
+    /* flex-direction:column; */
+    /* flex:100 1 auto; */
+    /* gap: 44px; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: 50px 143px;
+    width: 50vw;
+}
+/* .form{
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: center ;
+    margin: 44px ;
+    z-index: -1;
+} */
+.content{
+    /* background-color: turquoise; */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content input{
+    width: 13vw;
+    height: 2vw;
+    border-radius: 9px;
+    border: 2px solid #30a830cc;
+    padding: 4px;
+    font-size: medium;
+}
+.part1{
+    font-size: x-large;
+    display: flex;
+    /* background-color: red; */
+    /* flex-direction:row; */
+    flex: 6 0 0;
+}
+.form-value{
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction:column; */
+    /* margin: 94px; */
+    /* background-color: rgb(180, 175, 184); */
+    font-size:17px;
+    /* color: rgb(158, 245, 142); */
+    gap: 8px;
+    flex: 9 0 0;
+}
+.form-value2{
+    /* background-color: darkkhaki; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.label_inp{
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: column;
+    color: #929492cc;
+}
+.label_inp2{
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.label_inp2 input{
+    height: 1.3vw;
+    width: 1vw;
+}
+#email{
+    width: 17vw;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register input{
+    /* color: darkkhaki; */
+    padding: 13px;
+    background-color: #30a830cc;
+    border-radius: 22px;
+    height: 57px;
+    color: white;
+    font-size: x-large;
+    outline: none;
+}
+.register input:hover{
+    cursor: pointer;
+}
